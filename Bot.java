@@ -56,7 +56,7 @@ public class Bot extends ListenerAdapter
 
     public static void main(String[] args) throws Exception
     {
-        JDABuilder.createLight("NzkyNTM1NTU5MjQyMzgzMzYy.X-fIQQ.HaXRoPXB_wI3AyRmkL5HwkvEipI", GatewayIntent.GUILD_MESSAGES, GatewayIntent.DIRECT_MESSAGES)
+        JDABuilder.createLight("ENTER YOUR TOKEN HERE", GatewayIntent.GUILD_MESSAGES, GatewayIntent.DIRECT_MESSAGES)
                 .addEventListeners(new Bot()).setActivity(Activity.playing("Type !cmds")).build();
 
     }
