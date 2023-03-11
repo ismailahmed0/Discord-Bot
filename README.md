@@ -1,6 +1,8 @@
 # Discord-Bot
 
-Modified an existing academic project that resulted in a discord bot that allowed users to seamlessly request weather and COVID-19 information from a bot, which it displayed by using Java to parse the JSON files from the respective APIs
+•	Produced a discord chat bot in Java that allowed users to request weather and Covid-19 information by region
+
+•	Connected to APIs to build the bot and extract JSON files for parsing and delivering requested data
 
 Note 1: Enter the token for your Discord bot where it mentions it in Bot.java
 
